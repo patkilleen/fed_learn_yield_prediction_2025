@@ -1,0 +1,2 @@
+input dataset path,selected sensors path,spatial resolution (m),apply min-max scaling,input tile size (k x k),algorithm,seed,number of random samples to take per client,outer CV split type,inner CV split type,iterations,number of outer folds,number of inner folds,number of trials,number of executions per trial,output hyperparameter choice
+input/datasets/mono-temporal-DoY216.csv,input/selected-features/raw-bands-mono-temporal-DoY216.csv,2.5,TRUE,7,sCNN,123,500,block CV,block CV,1,3,3,50,2,TRUE

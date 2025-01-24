@@ -1,0 +1,7 @@
+input dataset path,selected sensors path,spatial resolution (m),algorithm,hyperparameter set,input tile size (k x k),federated aggregation algorithm,FL experiment type,apply min-max scaling,client heterogeneity,learning rate override,epoch override,batch size override,seed,number of random samples to take per client,cross-validation type,iterations,number of folds,number of selected clients per round,number of rounds
+input/datasets/multi-temporal.csv,input/selected-features/raw-bands-multi-temporal.csv,2.5,sCNN,multi-temporal,3,FedAvg,centralized learning,TRUE,IID,-1,-1,-1,123,500,block CV,2,5,6,64
+input/datasets/multi-temporal.csv,input/selected-features/raw-bands-multi-temporal.csv,2.5,sCNN,multi-temporal,3,FedAvg,centralized learning,TRUE,non-IID,-1,-1,-1,123,500,block CV,2,5,6,64
+input/datasets/multi-temporal.csv,input/selected-features/raw-bands-multi-temporal.csv,2.5,sCNN,multi-temporal,3,FedAvg,local learning and ensemble learning,TRUE,IID,-1,-1,-1,123,500,block CV,2,5,6,64
+input/datasets/multi-temporal.csv,input/selected-features/raw-bands-multi-temporal.csv,2.5,sCNN,multi-temporal,3,FedAvg,local learning and ensemble learning,TRUE,non-IID,-1,-1,-1,123,500,block CV,2,5,6,64
+input/datasets/multi-temporal.csv,input/selected-features/raw-bands-multi-temporal.csv,2.5,sCNN,multi-temporal,3,FedAvg,federated learning,TRUE,IID,-1,-1,-1,123,500,block CV,2,5,6,64
+input/datasets/multi-temporal.csv,input/selected-features/raw-bands-multi-temporal.csv,2.5,sCNN,multi-temporal,3,FedAvg,federated learning,TRUE,non-IID,-1,-1,-1,123,500,block CV,2,5,6,64
