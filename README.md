@@ -1,6 +1,6 @@
 ## Crop Yield Prediction Using Federated Learning
 
-This is the official documentation of the code repository of the paper: Patrick Killeen, Iluju Kiringa, and Tet Yeap "UAV Imagery-Based Yield Prediction Using Federated Learning and Model Sharing for Smart Farming Applications".
+This is the official documentation of the code repository of the paper: Patrick Killeen, Iluju Kiringa, and Tet Yeap "UAV Imagery-Based Yield Prediction Using Distributed Machine Learning via Model Sharing  for Smart Farming Applications".
 
 ## Requirements
 
